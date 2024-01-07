@@ -1,0 +1,93 @@
+
+
+.intro-text {
+  font-family: 'Comfortaa';
+  font-size: 200%;
+  bottom: 100px;
+}
+
+@font-face {
+  font-family: 'Comfortaa';
+  src: url('Comfortaa_Thin.ttf');
+}
+.name {
+  font-family: 'Comfortaa';
+  font-size: 500%;
+}
+.container {
+    margin:0 auto; /* this will center the page */
+    width:960px; /*  use your width here */
+ }
+
+.background {
+  background-image: url("ryhzdryydrry.png");
+  background-size: 1920px;
+  opacity: 1;
+  background-position: top;
+  background-color: #4b36c2;
+ }
+
+ ul{
+
+	  list-style-type: none;
+    margin: -8px;
+    margin-top: -113px;
+    outline: #01adfd solid 3px;
+		padding: 20px;
+    width: 100% ;
+  	background-color: #a0e4ff;
+  	color: rgb(255, 255, 255);
+  	white-space: nowrap;
+    
+	}
+
+ .background2 {
+
+    margin: -8px;
+    margin-top: -111px;
+    outline: #a48bff solid 3px;
+		padding: 5000px;
+    opacity: 0.5;
+    width: 100% ;
+  	background-color: #694de4;
+  	color: rgb(255, 255, 255);
+  	white-space: nowrap;
+    
+	}
+
+  ul li{
+		
+    display: inline-table;
+    width: 15%;
+    
+  
+    
+    }
+    .header{
+    text-align: center;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    margin: top 10px;
+    z-index: 100;
+    }
+    ul li a{
+    
+      color:rgb(0, 0, 0);
+      font-size: 18px;
+      font-weight: bold;
+      padding: 10px 25%;
+      text-decoration: none;
+      font-family:'Comfortaa';
+      
+    }
+    ul li a:hover{
+    
+    color:rgb(0, 0, 0);
+    padding: 10px 25%;
+    text-decoration: none;
+    font-family:'Comfortaa';
+    background-color: white;
+    
+    }
+    
